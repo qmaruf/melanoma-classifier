@@ -11,8 +11,8 @@ In the `./src/` directory run `python create_folds.py`. It will split the `train
 The web app is written use Flask and you can find it inside `../webapp/` folder. Update the `MODEL_PATH` in `./webapp/application.py` using you newly create model. Run the application using `python application.py`.
 
 It should be looked like the following images.
-![m1](https://user-images.githubusercontent.com/530250/103720445-14e5b380-5017-11eb-8c91-deb4e49d5884.png | width=10)
-![m2](https://user-images.githubusercontent.com/530250/103720457-19aa6780-5017-11eb-9427-41d7480d6e2e.png | width=10)
+![m1](https://user-images.githubusercontent.com/530250/103720445-14e5b380-5017-11eb-8c91-deb4e49d5884.png)
+![m2](https://user-images.githubusercontent.com/530250/103720457-19aa6780-5017-11eb-9427-41d7480d6e2e.png)
 
 This classifier is far from perfect and there's lots of scope for improvement. To train and deploy the model quickly, I have only used five epochs.
 Happy Classifying.
